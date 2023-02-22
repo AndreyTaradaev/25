@@ -1,7 +1,8 @@
 package main
  
 import (
-    "fmt""log"
+    "fmt"
+    "log"
 )
  
 func main() {
@@ -11,5 +12,5 @@ func main() {
     if err !=nil {
         log.Fatal(err)
     }
-    fmt.Printf("Вы ввели следующие данные: %s\n", n)
+    fmt.Printf("Вы ввели  данные: %s\n", n)
 }
